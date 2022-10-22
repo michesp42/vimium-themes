@@ -1,0 +1,115 @@
+#vimiumHintMarkerContainer div.internalVimiumHintMarker,
+#vimiumHintMarkerContainer div.vimiumHintMarker {
+  padding: 3px 4px;
+  background: #61afef; /* peach */
+  border: 1;
+  border-color: #2c323c; /* mantle */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+#vimiumHintMarkerContainer div span {
+  color: #2c323c; /* mantle */
+  text-shadow: none;
+}
+
+#vimiumHintMarkerContainer div > .matchingCharacter {
+  opacity: 1;
+}
+
+#vimiumHintMarkerContainer div > .matchingCharacter ~ span {
+  color: #5c6370; /* surface2 */
+}
+
+#vomnibar {
+  background: #282c34; /* base */
+  border: 2px solid #a377bf; /* lavender */
+  animation: show 200ms cubic-bezier(0, 0, 0.2, 1) forwards;
+}
+
+@keyframes show {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+#vomnibar input {
+  color: #abb2bf; /* text */
+  font: -moz-window;
+  background: #282c34; /* base */
+  border: none;
+  padding: 2;
+}
+
+#vomnibar .vomnibarSearchArea {
+  padding: 10px 30px;
+  border: none;
+  background: #282c34; /* base */
+}
+
+#vomnibar ul {
+  padding: 0;
+  background: #282c34; /* base */
+  border-top: 1px solid #3e4452; /* surface0 */
+}
+
+#vomnibar li {
+  padding: 10px;
+  border-bottom: 1px solid #3e4452; /* surface0 */
+}
+
+#vomnibar li .vomnibarTopHalf,
+#vomnibar li .vomnibarBottomHalf {
+  padding: 3px 0;
+}
+
+#vomnibar li .vomnibarSource {
+  color: #61afef; /* peach */
+}
+
+#vomnibar li em,
+#vomnibar li .vomnibarTitle {
+  color: #56b6c2; /* blue */
+  font-weight: bold;
+}
+
+#vomnibar li .vomnibarUrl {
+  color: #e5c07b; /* rosewater */
+}
+
+#vomnibar li .vomnibarMatch {
+  color: #98c379; /* green */
+  font-weight: bold;
+}
+
+#vomnibar li .vomnibarTitle .vomnibarMatch {
+  color: #56b6c2; /* blue */
+}
+
+#vomnibar li.vomnibarSelected {
+  background-color: #3e4452; /* surface0 */
+}
+
+div.vimiumHUD {
+  background: #282c34; /* base */
+  border: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+div.vimiumHUD span#hud-find-input,
+div.vimiumHUD .vimiumHUDSearchAreaInner {
+  color: #abb2bf; /* text */
+}
+
+div.vimiumHUD .hud-find {
+  background-color: #282c34; /* base */
+  border: none;
+}
+
+div.vimiumHUD .vimiumHUDSearchArea {
+  background-color: #282c34; /* base */
+}
